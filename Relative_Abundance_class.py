@@ -324,6 +324,7 @@ class Relative_Abundance:
         
         ind = np.arange(N)
         width = 0.5
+        
         plt.style.use('dark_background')
         
         p1 = plt.bar(ind,location_sum.iloc[:,9],width,color='#966FD6')
@@ -338,6 +339,6 @@ class Relative_Abundance:
         plt.xticks(ind,(location_sum.iloc[:,1]))
         plt.xlabel('Depth (cm)')
         (plt.legend((p1[0],p2[0],p3[0],p4[0],p5[0],p6[0]),('geobacter','shewan','desulfo',
-        'methano','methylo','verruc'),bbox_to_anchor=(1.01,1),loc=2))
-        
+        'methano','methylo','verruc'),bbox_to_anchor=(1.01,1),loc=2, borderaxespad=0.))
+        plt.tight_layout(rect=[0, 0,0.75, 1])
         plt.show()
