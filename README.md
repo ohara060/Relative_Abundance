@@ -1,7 +1,5 @@
 # Relative_Abundance
-second assignment for Andy Wickert's class
-
-created by Patrick O'Hara
+Created by Patrick O'Hara
 
 Used to determine relative Abundance of Geobacter, Shewanella, Desulfo, Methano,
 Methylo and Verruc prefixed bacteria and archea at depth within samples taken 
